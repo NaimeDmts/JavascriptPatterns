@@ -72,8 +72,8 @@ var Module = (function(){
     }
 })();
 
-console.log(Model.increment())
-console.log(Model.decrement())
+// console.log(Model.increment())
+// console.log(Model.decrement())
 
 var Moduls = (function(){
     var privateMethod = function(){
@@ -87,5 +87,5 @@ var Moduls = (function(){
     }
 })();
 
-console.log(Models.publicMethod())
+console.log(Moduls.publicMethod())
 
